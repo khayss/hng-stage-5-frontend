@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const instrumentSans = Instrument_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={instrumentSans.className}>
+        <div className="w-full flex flex-col items-center">
+          <div className="w-full max-w-[1440px] flex flex-col items-center overflow-hidden min-h-dvh bg-seasalt text-jet">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

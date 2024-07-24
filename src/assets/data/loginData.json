@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "label": "Email address",
+    "name": "email",
+    "type": "email",
+    "placeholder": "e.g. alex@email.com",
+    "icon": "/icons/email.svg"
+  },
+  {
+    "id": 2,
+    "label": "Password",
+    "name": "password",
+    "type": "password",
+    "placeholder": "Enter your password",
+    "icon": "/icons/password.svg"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "label": "Email address",
+    "type": "email",
+    "placeholder": "e.g. alex@email.com",
+    "icon": "/icons/email.svg",
+    "name": "email"
+  },
+  {
+    "id": 2,
+    "label": "Create password",
+    "placeholder": "At least 8 characters",
+    "type": "password",
+    "icon": "/icons/password.svg",
+    "name": "password"
+  },
+  {
+    "id": 3,
+    "label": "Confirm password",
+    "type": "password",
+    "placeholder": "At least 8 characters",
+    "icon": "/icons/password.svg",
+    "name": "confirmPassword",
+    "extraInfo": "Password must contain at least 8 characters"
+  }
+]
