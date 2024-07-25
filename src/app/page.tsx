@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="flex w-full flex-col items-center md:flex-row gap-12x max-w-[375px]">
           <Link
-            href={"/create account"}
+            href={"/create-account"}
             className="px-16x py-12x bg-primary rounded-12x text-white text-center flex items-center justify-center w-full"
           >
             <p className="font-medium">Create Account</p>

@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={instrumentSans.className}>
-        <div className="w-full flex flex-col items-center">
-          <div className="w-full max-w-[1440px] flex flex-col items-center overflow-hidden min-h-dvh bg-seasalt text-jet">
+        <div className="w-full flex flex-col items-center bg-seasalt">
+          <div className="w-full max-w-[1440px] flex flex-col items-center overflow-hidden min-h-dvh text-jet">
             {children}
           </div>
         </div>
